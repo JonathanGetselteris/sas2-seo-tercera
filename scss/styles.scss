@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #393E46;
+}
+@import "variables";
+@import "header";
+@import "footer";
+@import "inicio";
+@import "contacto";
+@import "bandaDua";
+@import "bandaGorillaz";
+@import "bandaSlipknot";

@@ -1,0 +1,57 @@
+footer{
+    max-height: fit-content;
+    max-width: 1440px;
+    background-color: #222831;
+    padding: 0 15%;
+    color: #EEEEEE;
+    border-radius: 15px;
+    img{
+      width: 3.5rem;
+    }
+    .copi{
+      text-align: center;
+      color: #b69944;
+      margin-bottom: 0;
+    }
+    .row{
+      text-align: center;
+      margin: 1em 0;
+      h3{
+        color: #b69944;
+      }
+      .socialIcons{
+        i{
+          color: #EEEEEE;
+          font-size: 22px;
+          margin: 0 10px;
+          &:hover{
+            color: #b69944;
+          }
+        }
+      }
+      form{
+        input{
+          background: none;
+          outline: none;
+          border: none;
+          text-align: center;
+          color: #EEEEEE;
+          cursor: pointer;
+          border-bottom: 1px solid #b69944;
+        }
+        button{
+          color: #EEEEEE;
+          background: transparent;
+          border: 2px solid #b69944;
+          border-radius: 30px;
+          padding: 10px 30px;
+          margin: 10px;
+          &:hover{
+            text-transform: uppercase;
+            color: #000;
+            background-color: #b69944;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,4 @@
+se aplicaron titulos
+se agrego los meta
+las etiquetas semanticas header, main, footer
+falta reducir imagenes

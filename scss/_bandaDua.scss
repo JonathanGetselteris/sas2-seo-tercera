@@ -1,0 +1,47 @@
+.containerDua{
+  max-width: 1440px;
+  margin: 0 auto;
+  h3{
+    text-align: center;
+    color: #b69944;
+    margin-top: 5px;
+  }
+  .col-lg-10{
+    padding: 0 5px;
+    img{
+      width: 100%;
+      border-radius: 15px;
+    }
+  }
+  .col-lg-2{
+    padding: 0 5px;
+    h3{
+      text-align: center;
+      color: #b69944;
+      margin-top: 0px;
+    }
+    p{
+      color: #eee;
+      text-align: center;
+      background-color: #222831;
+      padding:10px;
+      margin: 0 5px;
+      border-radius: 15px;
+    }
+  }
+  .row{
+    .historia,
+    .discografia{
+      color: #eee;
+      text-align: center;
+      background-color: #222831;
+      margin: 5px 0;
+      padding: 0 5px;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+  }
+  .container{
+    max-width: 1440px;
+  }
+}

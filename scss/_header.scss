@@ -1,0 +1,32 @@
+.navbar{
+  @include size;
+  background-color: map-get($mapaEstilosColores ,colorFondos );
+    .logo{
+      width: 3.5rem;
+    }
+    .navbar-toggler{
+      background-color: map-get($mapaEstilosColores, colorTitulos);
+    }
+    .nav-link{
+      color: map-get($mapaEstilosColores, colorTexto);
+      &:hover{
+        color: map-get($mapaEstilosColores , colorHover );
+      }
+    }
+    .activo{
+      color: map-get($mapaEstilosColores, colorActive );
+    }
+    .dropdown-menu{
+      background-color:map-get($mapaEstilosColores, colorFondos );
+      .dropdown-item{
+        color:map-get($mapaEstilosColores, colorTexto );
+        &:hover{
+          background-color: map-get($mapaEstilosColores, colorFondos );
+          color: map-get($mapaEstilosColores, colorHover );
+        }
+      }
+      .activo{
+        color: map-get($mapaEstilosColores, colorActive );
+      }
+    }
+  }

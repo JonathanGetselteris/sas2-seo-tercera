@@ -1,0 +1,36 @@
+.containerGorillaz{
+  max-width: 1440px;
+  margin: 0 auto;
+  h3{
+    text-align: center;
+    color: #b69944;
+  }
+  img{
+    width: 100%;
+    border-radius: 15px;
+  }
+  .row{
+    .bandaGorillaz{
+      p{
+        color: #eee;
+        text-align: center;
+        background-color: #222831;
+        padding: 0 5px;
+        margin: 0 5px;
+        border-radius: 15px;
+      }
+    }
+    .historia,
+    .discografia{
+    color: #eee;
+    text-align: center;
+    background-color: #222831;
+    margin: 5px 0 0 0 ;
+    padding: 0 5px;
+    border-radius: 15px;
+    }
+  }
+  .container{
+    max-width: 1440px;
+  }
+}

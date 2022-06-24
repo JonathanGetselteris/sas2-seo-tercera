@@ -1,0 +1,11 @@
+$mapaEstilosColores:(
+    colorTitulos:#b69944,
+    colorFondos:#222831,
+    colorTexto:#eee,
+    colorHover:#a88ec0,
+    colorActive:#00ADB5,
+);
+@mixin size {
+    max-width: 1440px;
+    margin: 0 auto;
+}
